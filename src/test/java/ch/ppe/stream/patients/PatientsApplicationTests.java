@@ -15,8 +15,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import ch.ppe.stream.patients.Patient;
-import ch.ppe.stream.patients.PatientsService;
+import ch.ppe.stream.patients.model.Patient;
+import ch.ppe.stream.patients.model.Vaccin;
+import ch.ppe.stream.patients.service.PatientsService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

@@ -2,7 +2,6 @@ package ch.ppe.stream.patients.rest;
 
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.HttpMethod;
@@ -12,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
 import ch.ppe.stream.patients.model.Patient;
-import ch.ppe.stream.patients.service.PatientsService;
 
 @RestController
 public class PatientsController {
