@@ -1,4 +1,4 @@
-package ch.ppe.stream.patients;
+package ch.ppe.stream.patients.model;
 
 import java.util.List;
 

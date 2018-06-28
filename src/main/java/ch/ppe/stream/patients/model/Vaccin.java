@@ -1,4 +1,4 @@
-package ch.ppe.stream.patients;
+package ch.ppe.stream.patients.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
